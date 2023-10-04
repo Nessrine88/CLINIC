@@ -5,3 +5,10 @@ CREATE TABLE patients(
     name VARCHAR (20),
     date_of_birth DATE,
     );
+
+CREATE TABLE medical_histories(
+    id SERIAL PRIMARY KEY,
+    admitted_at TIMESTAMP,
+    patient_id INT,
+    status VARCHAR(100)
+    );
