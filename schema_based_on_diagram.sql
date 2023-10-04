@@ -12,3 +12,9 @@ CREATE TABLE medical_histories(
     patient_id INT,
     status VARCHAR(100)
     );
+
+CREATE TABLE treatments(
+    id SERIAL PRIMARY KEY,
+    type VARCHAR(100),
+    name VARCHAR(100)?
+    );
