@@ -10,7 +10,8 @@ CREATE TABLE medical_histories(
     id SERIAL PRIMARY KEY,
     admitted_at TIMESTAMP,
     patient_id INT,
-    status VARCHAR(100)
+    status VARCHAR(100),
+    FOREIGN KEY(patient_id) REFERENCES patients(id)
     );
 
 CREATE TABLE treatments(
@@ -33,5 +34,7 @@ CREATE TABLE invoice_items(
     quantity INT,
     total_price DECIMAL,
     invoice_id INT,
-    treatment_id INT
+    treatment_id INT,
+    FOREIGN KEY(invoice_id) REFERENCES invoices(id),
+    FOREIGN KEY(treatment_id) REFERENCES treatments(id)
     );
