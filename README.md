@@ -12,7 +12,7 @@
 <br/>
 
 <div align="center">
-  <h1 style="border-bottom: none;">🏥 Clinic 🏥 </h1>
+  <h1 style="border-bottom: none;">🏥 Clinic Database 🏥 </h1>
 </div>
 
 <br/>
