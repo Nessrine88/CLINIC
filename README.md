@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 <div align="center">
- <h1><b> Welcome To Our Clinic Database! </b></h1>
+ <h1><b> Welcome To Our Project! </b></h1>
 </div>  
 
 <br/>
