@@ -96,7 +96,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```bash
-  git clone https://github.com/CVILLA09/vet-clinic.git
+  git clone https://github.com/Nessrine88/CLINIC.git
 ```
 
 ### Install
@@ -104,7 +104,7 @@ Clone this repository to your desired folder:
 Go to the project directory.
 
 ```bash
-  cd vet-clinic
+  cd CLINIC
 ```
 
 ### Usage
@@ -112,9 +112,7 @@ Go to the project directory.
 In the project directory, run/ Excute each query in the following order:
 
 ```bash
-  Excute schema.sql
-  Excute data.sql
-  Excute queries.sql
+  Excute schema_based_on_diagram.sql
 ```
 
 ### Run tests
